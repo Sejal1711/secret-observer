@@ -263,6 +263,12 @@ if (keyword && specificResponses[keyword] && specificResponses[keyword][mood]) {
     <div className="container">
       <div className="box">
         <h1> Secret Observer 💌</h1>
+        <p className="description">
+          Ever wondered if your crush is more of a softie or a firecracker? <br />
+          Just describe how he acts — and let our mood-based bot decode the vibe! <br />
+          Choose a chatbot mood (sweet, sarcastic, or sassy) and spill the tea. ☕ <br />
+          The bot not only reads the vibe — it also tells you what type of girls he probably prefers! 😏💘
+        </p>
 
         <div className="mood-selector">
           <label>Choose chatbot mood:</label>
