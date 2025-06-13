@@ -1,0 +1,94 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body, html{
+  height:100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana;
+
+}
+.container{
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #f9a8d4,  #f472b6, #c084fc);
+  color:#111;
+  text-align: center;
+}
+h1{
+  font-size: 2rem;
+  font-weight:bold;
+}
+.prompt {
+  margin-top: 1rem;
+}
+.prompt button {
+  margin: 0.5rem;
+  padding: 0.4rem 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.prompt button:first-child {
+  background-color: #93c5fd;
+}
+.prompt button:last-child {
+  background-color: #f9a8d4;
+}
+input, select, button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin: 0.5rem 0.25rem;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+select {
+  background: #fff0f6;
+  color: #d6336c;
+  border: 2px solid #f9a8d4;
+  cursor: pointer;
+}
+
+select:hover {
+  background: #ffe0ed;
+}
+
+input {
+  background-color: #ffffff;
+  border: 2px solid #f472b6;
+  color: #333;
+}
+
+input::placeholder {
+  color: #999;
+}
+
+button {
+  background-color: #a78bfa;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7c3aed;
+  transform: scale(1.05);
+}
+
+.final {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #f472b6;
+  padding: 1rem;
+  border-radius: 10px;
+}
