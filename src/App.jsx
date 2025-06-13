@@ -188,7 +188,7 @@ const chatbotResponses = {
     neutral: "Still figuring out his type — keep the observations coming, love 🕵️"
   },
   sarcastic: {
-    soft: "Oh, he likes the shy types? How thrilling. Maybe he’ll ask them out… in 5 years. 🙄",
+    soft: "Oh, he likes the shy types? How thrilling. Maybe he’ll ask you out… in 5 years. 🙄",
     loud: "So he likes the loud, dramatic ones? Hope he packed earplugs. 🔊😂",
     neutral: "He’s playing mystery man. Sherlock might need backup 🧐"
   },
@@ -281,7 +281,7 @@ if (keyword && specificResponses[keyword] && specificResponses[keyword][mood]) {
           />
           <button type="submit">Submit</button>
         </form>
-        <p className="note">✨ Enter at least 4 traits to unlock the final verdict ✨</p>
+        <p className="note">✨ Enter at least 3 traits to unlock the final verdict ✨</p>
 
         {log.map((entry, i) => (
           <p key={i} className={entry.isBot ? "bot" : "user"}>
