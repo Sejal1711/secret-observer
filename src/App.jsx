@@ -181,38 +181,24 @@ const specificResponses = {
   }
 };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const chatbotResponses = {
   sweet: {
-    soft: "Aww, he seems like the calm, sweet type. Keep being gentle! 💖",
-    loud: "Hmm, I think he enjoys bold energy! Let your spark shine 💫",
-    neutral: "I’m still figuring him out. Keep observing! 🕵️"
+    soft: "He's totally into the soft type — shy, sweet, and a little mysterious just like you. 💞",
+    loud: "He clearly adores bold girls who bring the drama and the dazzle 💃✨",
+    neutral: "Still figuring out his type — keep the observations coming, love 🕵️"
   },
   sarcastic: {
-    soft: "Oh wow, a bookworm? How *adorable*. Let’s knit sweaters together. 🧶",
-    loud: "Bold and loud? Bet he thinks he's the main character. 🎬",
-    neutral: "What a mystery... even Sherlock's confused. 🕵️‍♂️"
+    soft: "Oh, he likes the shy types? How thrilling. Maybe he’ll ask them out… in 5 years. 🙄",
+    loud: "So he likes the loud, dramatic ones? Hope he packed earplugs. 🔊😂",
+    neutral: "He’s playing mystery man. Sherlock might need backup 🧐"
   },
   sassy: {
-    soft: "Soft boy alert 🚨. Bring out your inner marshmallow.",
-    loud: "Loud boys, huh? Time to slay and steal the show, queen. 👑",
-    neutral: "Girl, he’s playing hard to read. Keep those eyes open 👀"
+    soft: "Aww he’s into the quiet, shy ones? Looks like we’ve got a sucker for sweethearts 💅",
+    loud: "He loves bold girls? Get your heels, drama, and fire ready, queen 🔥👠",
+    neutral: "He’s being all cryptic, huh? Time to turn up the heat and crack the case 🔍💃"
   }
 };
+
 
 function classifyObservation(text) {
   const lower = text.toLowerCase();
@@ -295,6 +281,7 @@ if (keyword && specificResponses[keyword] && specificResponses[keyword][mood]) {
           />
           <button type="submit">Submit</button>
         </form>
+        <p className="note">✨ Enter at least 4 traits to unlock the final verdict ✨</p>
 
         {log.map((entry, i) => (
           <p key={i} className={entry.isBot ? "bot" : "user"}>
