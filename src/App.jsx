@@ -283,7 +283,7 @@ if (keyword && specificResponses[keyword] && specificResponses[keyword][mood]) {
           <input
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder="So tell me about him 🥰"
+            placeholder="So..is he shy ?? flirty???🥰"
           />
           <button type="submit">Submit</button>
         </form>
