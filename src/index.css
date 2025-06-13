@@ -92,3 +92,11 @@ button:hover {
   padding: 1rem;
   border-radius: 10px;
 }
+.note {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-style: italic;
+  text-align: center;
+}
